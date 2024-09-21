@@ -1,0 +1,9 @@
+[package]
+name = "svm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "3", features = ["derive"] }
+regex = "1.10.6"
+reqwest = { version = "0.12.7", features = ["blocking"] }
